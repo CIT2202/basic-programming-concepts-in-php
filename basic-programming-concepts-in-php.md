@@ -1,7 +1,7 @@
 # Basic programming concepts in PHP
 
 ## The basics - how do I add PHP to a web page?
-To start with we will write PHP by embedding it in an HTML page. here's an example:
+To start with we will write PHP by embedding it in an HTML page. Here's an example:
 ```php
 <!DOCTYPE HTML>
 <html>
