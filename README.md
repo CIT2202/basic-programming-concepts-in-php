@@ -6,4 +6,4 @@
 * Upload this file to selene and make sure you can view it through a web browser.
 * Answer the questions in *intro-to-php.php*.
 * Use the [notes](https://github.com/CIT2202/basic-programming-concepts-in-php/blob/master/basic-programming-concepts-in-php.md) to help you to answer the questions.
-* <a href="[http://example.com/](https://github.com/CIT2202/basic-programming-concepts-in-php/blob/master/basic-programming-concepts-in-php.md)" target="_blank">notes</a>
+* <a href="https://github.com/CIT2202/basic-programming-concepts-in-php/blob/master/basic-programming-concepts-in-php.md" target="_blank">notes</a>
