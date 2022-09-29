@@ -92,7 +92,7 @@ If we use single quotes we can use the concatenate operator ( . ) to join the tw
 ```php
 <?php
 $name = "Bob";
-$job  ="mechanic";
+$job  = "mechanic";
 echo '<p>Hi, my name is '.$name.'. I work as a '.$job; //<p>Hi, my name is Bob . I work as a mechanic</p>
 ?>
 ```
