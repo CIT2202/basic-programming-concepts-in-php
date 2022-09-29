@@ -34,7 +34,7 @@ This example simply prints the text *Welcome to PHP*. Here are some key points.
 In PHP all variables start with the dollar sign ($)
 ```php
 <?php
-$myVar="Hello World";
+$myVar = "Hello World";
 echo $myVar; //outputs Hello World
 ?>
 ```
@@ -72,8 +72,8 @@ If we use double quotes (and curly brackets around the variable) the variables i
 
 ```php
 <?php
-$name="Bob";
-$job="mechanic";
+$name = "Bob";
+$job = "mechanic";
 echo "<p>Hi, my name is {$name}. I work as a {$job}<p>"; //<p>Hi, my name is Bob . I work as a mechanic</p>
 ?>
 ```
@@ -81,8 +81,8 @@ echo "<p>Hi, my name is {$name}. I work as a {$job}<p>"; //<p>Hi, my name is Bob
 
 ```php
 <?php
-$name="Bob";
-$job="mechanic";
+$name = "Bob";
+$job = "mechanic";
 echo '<p>Hi, my name is $name. I work as a $job<p>'; //<p>Hi, my name is $name. I work as a $job</p>
 ?>
 ```
@@ -91,8 +91,8 @@ If we use single quotes we can use the concatenate operator ( . ) to join the tw
 
 ```php
 <?php
-$name="Bob";
-$job="mechanic";
+$name = "Bob";
+$job  ="mechanic";
 echo '<p>Hi, my name is '.$name.'. I work as a '.$job; //<p>Hi, my name is Bob . I work as a mechanic</p>
 ?>
 ```
@@ -108,7 +108,7 @@ Again, testing data in PHP works like many other programming languages e.g. a we
 ```php
 <?php
 $age = 65;
-if($age>=65){
+if($age >= 65){
     echo "<p><a href='homepage.html'>Welcome to the website</a></p>";
 }else{
     echo '<p>Sorry you are not old enough for the website</p>';
@@ -133,8 +133,8 @@ Here are some examples:
 ```php
 <?php
 //As long as $team doesn't equal Chelsea we display the message
-$team="Huddersfield Town";
-if($team!=="Chelsea"){
+$team = "Huddersfield Town";
+if($team !== "Chelsea"){
     echo 'Good choice';
 }
 ?>
@@ -143,8 +143,8 @@ if($team!=="Chelsea"){
 ```php
 <?php
 //if the score is greater than 70 display the message
-$score=88;
-if($score>=70){
+$score = 88;
+if($score >= 70){
     echo 'You scored an A grade';
 }
 ?>
@@ -161,8 +161,8 @@ Logical operators AND (&&) and OR (||) allow us to check for more than one condi
 ```php
 <?php
 //if $score is in the range 60 and 69 the message is displayed
-$score=63;
-if($score>=60 && $score<70){
+$score = 63;
+if($score >= 60 && $score < 70){
     echo 'You got a B grade';
 }
 ?>
@@ -171,7 +171,7 @@ if($score>=60 && $score<70){
 ```php
 <?php
 //if $uName has a value of Bill or Bob the message is displayed
-$uName="Ben";
+$uName = "Ben";
 if($uName === "Bill" || $uName === "Bob"){
     echo "Welcome {$uName}";
 }
@@ -183,20 +183,20 @@ We can chain together lots of if statements using *else*:
 
 ```php
 <?php
-$score=45;
-if ($score>100) {
+$score = 45;
+if ($score > 100) {
     echo "I'm sorry, it's not possible to score higher than 100";
-} else if ($score>=70) {
+} else if ($score >= 70) {
     echo "You got an A grade";
-} else if ($score>59 && $score<70) {
+} else if ($score > 59 && $score < 70) {
     echo "You got a B grade";
-} else if ($score>49 && $score<60) {
+} else if ($score > 49 && $score < 60) {
     echo "You got a C grade";
-} else if ($score>39 && $score<50) {
+} else if ($score > 39 && $score < 50) {
     echo "You got a D grade";
-} else if ($score>29 && $score<40) {
+} else if ($score > 29 && $score < 40) {
     echo "You got an E grade";
-} else if ($score<30) {
+} else if ($score < 30) {
     echo "Sorry, you've failed the assignment";
 }
 ?>
@@ -206,7 +206,7 @@ A more compact approach is to use a *switch* statement:
 
 ```php
 <?php
-$module="CIT2318";
+$module = "CIT2318";
 switch ($module) {
     case "CFT2111":
         echo "20 credits";
@@ -226,7 +226,7 @@ switch ($module) {
 It is common practice to mix HTML and PHP. Here's an example:
 ```php
 <?php
-if($logged_in===false){
+if($logged_in === false){
 ?>
     <form action="login.php" method="POST">
     <label for="user_name">Username:</label><input type="text" name="user_name" id="user_name">
