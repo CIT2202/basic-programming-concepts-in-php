@@ -43,6 +43,7 @@ echo "Welcome to PHP";
 // $assign1 = 56;
 // $assign2 = 78;
 // $assign3 = 68;
+// Hint to get the weighted assignment mark we need to multiple the assignment mark by the weighting e.g. $weighted_assign1 = $assign1 * 0.4 
 
 
 
