@@ -27,3 +27,18 @@ This will copy the contents of this repository into your codespace.
 - Make sure you can view _intro-to-php.php_ through a web browser e.g. http://localhost/cit2202/basic-programming-concepts-in-php
 - Answer the questions in _intro-to-php.php_.
 - Use the [notes](https://github.com/CIT2202/basic-programming-concepts-in-php/blob/master/basic-programming-concepts-in-php.md) to help you to answer the questions.
+
+```mermaid
+classDiagram 
+    City --> Country : located in
+    class Country{
+      name
+      population
+      currency
+    }
+    class City{
+        name
+        is capital
+        average temperature
+    }
+```
