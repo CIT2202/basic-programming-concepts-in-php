@@ -1,19 +1,5 @@
 # Intro to PHP
 
-```mermaid
-classDiagram 
-    City --> Country : located in
-    class Country{
-      name
-      population
-      currency
-    }
-    class City{
-        name
-        is capital
-        average temperature
-    }
-```
 
 ## If you are using Codespaces
 
