@@ -28,17 +28,3 @@ This will copy the contents of this repository into your codespace.
 - Answer the questions in _intro-to-php.php_.
 - Use the [notes](https://github.com/CIT2202/basic-programming-concepts-in-php/blob/master/basic-programming-concepts-in-php.md) to help you to answer the questions.
 
-```mermaid
-classDiagram 
-    City --> Country : located in
-    class Country{
-      name
-      population
-      currency
-    }
-    class City{
-        name
-        is capital
-        average temperature
-    }
-```
