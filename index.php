@@ -3,6 +3,7 @@
 <head>
 <title>Introduction to PHP</title>
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
 <?php
@@ -12,6 +13,7 @@ echo "Welcome to PHP";
 // 1.
 // a) View the page in a browser. Make sure you can see the welcome message.
 // b) Modify the message so that it appears as a <h1> heading.
+// c) Not a PHP question. Add a simple style sheet to this page.
 
 
 
@@ -36,21 +38,17 @@ echo "Welcome to PHP";
 // $num2=20;
 
 
-// 4. Uncomment following three PHP variables.
-// The variables $assign1, $assign2 and $assign3 store the marks out of 100 for a student for three different assignments. Assignment 1 has a weighting of 40%, Assignment 2 has a weighting of 25% and Assignment 3 has a weighting of 35%. Create another PHP variable called $overall. Using PHP mathematical operators, calculate an overall mark for the student and assign this value to the variable $overall. Use an echo statement to print this mark into the HTML page.
+// 4. Uncomment following two PHP variables.
+// The variables $assign1 and $assign2 store the marks out of 100 for a student for two different assignments. Assignment 1 has a weighting of 40%, Assignment 2 has a weighting of 60%. Create another PHP variable called $overall. Using PHP mathematical operators, calculate an overall mark for the student and assign this value to the variable $overall. Use an echo statement to print this mark into the HTML page.
 
 
-// $assign1 = 56;
-// $assign2 = 78;
-// $assign3 = 68;
-// Hint - to get the weighted assignment mark we need to multiple the assignment mark by the weighting e.g. $weighted_assign1 = $assign1 * 0.4. We can then add all the weighted assignment marks to get the overall mark. 
-
+$assign1 = 56;
+$assign2 = 78;
 
 
 // 5.
 // a) In order to pass a module students must get an overall mark that is greater than or equal to 40. Write a PHP if statement that will test if $overall is greater than or equal to 40. If it is, use an echo statement to output "passed". If it isn't use an echo statement to output "failed"
 // b) Write another if statement. This time it should test the value of $overall and output if the student has an A, B, C, D etc.
-
 
 
 // 6.
@@ -62,8 +60,10 @@ echo "Welcome to PHP";
 // The following PHP code assigns a random number value to the variable $units. Uncomment the code and write some additional PHP code that will calculate and output the cost of a gas bill based on the value of $units.
 
 
-// $units=rand(0,2000);
+// $units = rand(0,2000);
 // echo "<p>Units has a value of {$units}.</p>";
+
+
 
 
 
