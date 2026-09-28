@@ -211,10 +211,10 @@ switch ($module) {
     case "CFT2111":
         echo "20 credits";
         break;
-    case "CIT2318":
+    case "CHP2524":
         echo "40 credits";
         break;
-    case "CIP2225":
+    case "CIT2202":
         echo "20 credits";
         break;
 }
@@ -245,7 +245,3 @@ if($logged_in === false){
 
 * Take a couple of minutes to look where the curly brackets and PHP tags are. The different parts of the conditional statement are interspersed with HTML.
 
-
-## More info
-* http://php.net/
-* Have a look on Summon for an intro to PHP book.
